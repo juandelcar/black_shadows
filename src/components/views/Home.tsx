@@ -1,6 +1,7 @@
 "use client"
 
 import { FiCode, FiServer, FiShield, FiCloud } from "react-icons/fi"
+import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
@@ -12,12 +13,12 @@ export default function Home() {
               <h1 className="text-4xl md:text-5xl font-bold mb-4">Black Shadows</h1>
               <p className="text-xl mb-6">Innovación y tecnología al servicio de tu negocio. Soluciones digitales que transforman realidades.</p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="/services" className="btn btn-primary">
+                <Link to="/services" className="btn btn-primary">
                   Nuestros servicios
-                </a>
-                <a href="/contact" className="btn text-white-900">
+                </Link>
+                <Link to="/contact" className="btn text-white-900">
                   Contáctanos
-                </a>
+                </Link>
               </div>
             </div>
             <div className="md:w-1/2 flex justify-center">
