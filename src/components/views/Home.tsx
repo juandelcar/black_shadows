@@ -13,11 +13,11 @@ export default function Home() {
               <h1 className="text-4xl md:text-5xl font-bold mb-4">Black Shadows</h1>
               <p className="text-xl mb-6">Innovación y tecnología al servicio de tu negocio. Soluciones digitales que transforman realidades.</p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link to="/services" className="btn btn-primary">
-                  Nuestros servicios
-                </Link>
                 <Link to="/contact" className="btn text-white-900">
                   Contáctanos
+                </Link>
+                <Link to="/about" className="btn text-white-900">
+                  Sobre Nosotros
                 </Link>
               </div>
             </div>
