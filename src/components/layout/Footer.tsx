@@ -49,7 +49,7 @@ const Footer = () => {
                 <h3 className="text-xl font-semibold text-white">Contacto</h3>
                 <ul className="space-y-3">
                   <li>
-                    <Link to="/views/About" className="text-gray-300 hover:text-white transition-all duration-300 flex items-center group">
+                    <Link to="/about" className="text-gray-300 hover:text-white transition-all duration-300 flex items-center group">
                       <svg className="w-6 h-6 mr-3 text-white group-hover:scale-110 transition-transform duration-300" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" fill="currentColor"/>
                       </svg>
@@ -57,7 +57,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/views/Contact" className="text-gray-300 hover:text-white transition-all duration-300 flex items-center group">
+                    <Link to="contact" className="text-gray-300 hover:text-white transition-all duration-300 flex items-center group">
                       <svg className="w-6 h-6 mr-3 text-white group-hover:scale-110 transition-transform duration-300" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/>
                       </svg>
@@ -88,7 +88,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-=======
 return (
 <footer className="bg-gradient-to-r from-black via-gray-900 to-black text-white">
     <div className="max-w-7xl mx-auto px-4 sm:px-3 lg:px-2 py-1">
