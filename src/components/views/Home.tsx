@@ -11,7 +11,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-8 md:mb-0">
-              <h1 className="text-4xl md:text-5xl font-bold mb-4">Black Shadows</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-4">Black Shadows & Kirby</h1>
               <p className="text-xl mb-6">Innovación y tecnología al servicio de tu negocio. Soluciones digitales que transforman realidades.</p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/contact" className="btn text-white-900">

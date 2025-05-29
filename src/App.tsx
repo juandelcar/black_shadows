@@ -8,6 +8,7 @@ import Footer from './components/layout/Footer';
 const App = () => {
   return (
     <Router>
+      <Header />
       <div className="min-h-screen flex flex-col">
         <main className="flex-grow">
           <Routes>
